@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FB4B84CA20E31C9800C9E054 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B84C920E31C9800C9E054 /* AppDelegate.swift */; };
+		FB4B84CC20E31C9800C9E054 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B84CB20E31C9800C9E054 /* ViewController.swift */; };
+		FB4B84CF20E31C9800C9E054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4B84CD20E31C9800C9E054 /* Main.storyboard */; };
+		FB4B84D120E31C9900C9E054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB4B84D020E31C9900C9E054 /* Assets.xcassets */; };
+		FB4B84D420E31C9900C9E054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB4B84D220E31C9900C9E054 /* LaunchScreen.storyboard */; };
+		FB4B84DF20E31C9900C9E054 /* practice_EurekaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B84DE20E31C9900C9E054 /* practice_EurekaTests.swift */; };
+		FB4B84EA20E31C9900C9E054 /* practice_EurekaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4B84E920E31C9900C9E054 /* practice_EurekaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FB4B84DB20E31C9900C9E054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4B84BE20E31C9800C9E054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4B84C520E31C9800C9E054;
+			remoteInfo = practice_Eureka;
+		};
+		FB4B84E620E31C9900C9E054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FB4B84BE20E31C9800C9E054 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FB4B84C520E31C9800C9E054;
+			remoteInfo = practice_Eureka;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FB4B84C620E31C9800C9E054 /* practice_Eureka.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practice_Eureka.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4B84C920E31C9800C9E054 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FB4B84CB20E31C9800C9E054 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FB4B84CE20E31C9800C9E054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FB4B84D020E31C9900C9E054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FB4B84D320E31C9900C9E054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FB4B84D520E31C9900C9E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4B84DA20E31C9900C9E054 /* practice_EurekaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practice_EurekaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4B84DE20E31C9900C9E054 /* practice_EurekaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice_EurekaTests.swift; sourceTree = "<group>"; };
+		FB4B84E020E31C9900C9E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB4B84E520E31C9900C9E054 /* practice_EurekaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = practice_EurekaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB4B84E920E31C9900C9E054 /* practice_EurekaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = practice_EurekaUITests.swift; sourceTree = "<group>"; };
+		FB4B84EB20E31C9900C9E054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FB4B84C320E31C9800C9E054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B84D720E31C9900C9E054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B84E220E31C9900C9E054 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FB4B84BD20E31C9800C9E054 = {
+			isa = PBXGroup;
+			children = (
+				FB4B84C820E31C9800C9E054 /* practice_Eureka */,
+				FB4B84DD20E31C9900C9E054 /* practice_EurekaTests */,
+				FB4B84E820E31C9900C9E054 /* practice_EurekaUITests */,
+				FB4B84C720E31C9800C9E054 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FB4B84C720E31C9800C9E054 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B84C620E31C9800C9E054 /* practice_Eureka.app */,
+				FB4B84DA20E31C9900C9E054 /* practice_EurekaTests.xctest */,
+				FB4B84E520E31C9900C9E054 /* practice_EurekaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FB4B84C820E31C9800C9E054 /* practice_Eureka */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B84C920E31C9800C9E054 /* AppDelegate.swift */,
+				FB4B84CB20E31C9800C9E054 /* ViewController.swift */,
+				FB4B84CD20E31C9800C9E054 /* Main.storyboard */,
+				FB4B84D020E31C9900C9E054 /* Assets.xcassets */,
+				FB4B84D220E31C9900C9E054 /* LaunchScreen.storyboard */,
+				FB4B84D520E31C9900C9E054 /* Info.plist */,
+			);
+			path = practice_Eureka;
+			sourceTree = "<group>";
+		};
+		FB4B84DD20E31C9900C9E054 /* practice_EurekaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B84DE20E31C9900C9E054 /* practice_EurekaTests.swift */,
+				FB4B84E020E31C9900C9E054 /* Info.plist */,
+			);
+			path = practice_EurekaTests;
+			sourceTree = "<group>";
+		};
+		FB4B84E820E31C9900C9E054 /* practice_EurekaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FB4B84E920E31C9900C9E054 /* practice_EurekaUITests.swift */,
+				FB4B84EB20E31C9900C9E054 /* Info.plist */,
+			);
+			path = practice_EurekaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FB4B84C520E31C9800C9E054 /* practice_Eureka */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B84EE20E31C9900C9E054 /* Build configuration list for PBXNativeTarget "practice_Eureka" */;
+			buildPhases = (
+				FB4B84C220E31C9800C9E054 /* Sources */,
+				FB4B84C320E31C9800C9E054 /* Frameworks */,
+				FB4B84C420E31C9800C9E054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = practice_Eureka;
+			productName = practice_Eureka;
+			productReference = FB4B84C620E31C9800C9E054 /* practice_Eureka.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FB4B84D920E31C9900C9E054 /* practice_EurekaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B84F120E31C9900C9E054 /* Build configuration list for PBXNativeTarget "practice_EurekaTests" */;
+			buildPhases = (
+				FB4B84D620E31C9900C9E054 /* Sources */,
+				FB4B84D720E31C9900C9E054 /* Frameworks */,
+				FB4B84D820E31C9900C9E054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4B84DC20E31C9900C9E054 /* PBXTargetDependency */,
+			);
+			name = practice_EurekaTests;
+			productName = practice_EurekaTests;
+			productReference = FB4B84DA20E31C9900C9E054 /* practice_EurekaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FB4B84E420E31C9900C9E054 /* practice_EurekaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FB4B84F420E31C9900C9E054 /* Build configuration list for PBXNativeTarget "practice_EurekaUITests" */;
+			buildPhases = (
+				FB4B84E120E31C9900C9E054 /* Sources */,
+				FB4B84E220E31C9900C9E054 /* Frameworks */,
+				FB4B84E320E31C9900C9E054 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FB4B84E720E31C9900C9E054 /* PBXTargetDependency */,
+			);
+			name = practice_EurekaUITests;
+			productName = practice_EurekaUITests;
+			productReference = FB4B84E520E31C9900C9E054 /* practice_EurekaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FB4B84BE20E31C9800C9E054 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Kageken;
+				TargetAttributes = {
+					FB4B84C520E31C9800C9E054 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					FB4B84D920E31C9900C9E054 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FB4B84C520E31C9800C9E054;
+					};
+					FB4B84E420E31C9900C9E054 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = FB4B84C520E31C9800C9E054;
+					};
+				};
+			};
+			buildConfigurationList = FB4B84C120E31C9800C9E054 /* Build configuration list for PBXProject "practice_Eureka" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FB4B84BD20E31C9800C9E054;
+			productRefGroup = FB4B84C720E31C9800C9E054 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FB4B84C520E31C9800C9E054 /* practice_Eureka */,
+				FB4B84D920E31C9900C9E054 /* practice_EurekaTests */,
+				FB4B84E420E31C9900C9E054 /* practice_EurekaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FB4B84C420E31C9800C9E054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B84D420E31C9900C9E054 /* LaunchScreen.storyboard in Resources */,
+				FB4B84D120E31C9900C9E054 /* Assets.xcassets in Resources */,
+				FB4B84CF20E31C9800C9E054 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B84D820E31C9900C9E054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B84E320E31C9900C9E054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FB4B84C220E31C9800C9E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B84CC20E31C9800C9E054 /* ViewController.swift in Sources */,
+				FB4B84CA20E31C9800C9E054 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B84D620E31C9900C9E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B84DF20E31C9900C9E054 /* practice_EurekaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB4B84E120E31C9900C9E054 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB4B84EA20E31C9900C9E054 /* practice_EurekaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FB4B84DC20E31C9900C9E054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4B84C520E31C9800C9E054 /* practice_Eureka */;
+			targetProxy = FB4B84DB20E31C9900C9E054 /* PBXContainerItemProxy */;
+		};
+		FB4B84E720E31C9900C9E054 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FB4B84C520E31C9800C9E054 /* practice_Eureka */;
+			targetProxy = FB4B84E620E31C9900C9E054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FB4B84CD20E31C9800C9E054 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4B84CE20E31C9800C9E054 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FB4B84D220E31C9900C9E054 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FB4B84D320E31C9900C9E054 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FB4B84EC20E31C9900C9E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FB4B84ED20E31C9900C9E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FB4B84EF20E31C9900C9E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practice_Eureka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kageken.practice-Eureka";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FB4B84F020E31C9900C9E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practice_Eureka/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kageken.practice-Eureka";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FB4B84F220E31C9900C9E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practice_EurekaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kageken.practice-EurekaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practice_Eureka.app/practice_Eureka";
+			};
+			name = Debug;
+		};
+		FB4B84F320E31C9900C9E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practice_EurekaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kageken.practice-EurekaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/practice_Eureka.app/practice_Eureka";
+			};
+			name = Release;
+		};
+		FB4B84F520E31C9900C9E054 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practice_EurekaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kageken.practice-EurekaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practice_Eureka;
+			};
+			name = Debug;
+		};
+		FB4B84F620E31C9900C9E054 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = practice_EurekaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Kageken.practice-EurekaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = practice_Eureka;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FB4B84C120E31C9800C9E054 /* Build configuration list for PBXProject "practice_Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B84EC20E31C9900C9E054 /* Debug */,
+				FB4B84ED20E31C9900C9E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B84EE20E31C9900C9E054 /* Build configuration list for PBXNativeTarget "practice_Eureka" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B84EF20E31C9900C9E054 /* Debug */,
+				FB4B84F020E31C9900C9E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B84F120E31C9900C9E054 /* Build configuration list for PBXNativeTarget "practice_EurekaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B84F220E31C9900C9E054 /* Debug */,
+				FB4B84F320E31C9900C9E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB4B84F420E31C9900C9E054 /* Build configuration list for PBXNativeTarget "practice_EurekaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB4B84F520E31C9900C9E054 /* Debug */,
+				FB4B84F620E31C9900C9E054 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FB4B84BE20E31C9800C9E054 /* Project object */;
+}
