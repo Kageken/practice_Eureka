@@ -1,0 +1,6 @@
+framework module Pods_practice_EurekaTests {
+  umbrella header "Pods-practice_EurekaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

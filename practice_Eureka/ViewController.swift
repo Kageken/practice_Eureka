@@ -7,12 +7,24 @@
 //
 
 import UIKit
+import Eureka
 
-class ViewController: UIViewController {
+class ViewController: FormViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+//        form +++ Section()
+//            <<< TextRow("TextFiled"){
+//                $0.title = "テキスト入力"
+//                $0.placeholder = "ここに書いてね"
+//        }
+        
+        form
+            +++ Section()
+            <<< NameRow(){
+                $0.title = "Name"
+        }
     }
 
     override func didReceiveMemoryWarning() {
